@@ -2,8 +2,7 @@
 
 int main() {
     int n, power;
-    long long result = 1; // Using long long to handle large values
-
+    long long result = 1; 
     // Getting input from user
     printf("Enter the base (n): ");
     scanf("%d", &n);
