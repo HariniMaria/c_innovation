@@ -2,21 +2,20 @@
 
 int main() {
     int n, power;
-    long long result = 1; // Using long long to handle large values
-
-    // Getting input from user
-    printf("Enter the base (n): ");
+    long  result = 1; 
+    
+    printf("Enter the base : ");
     scanf("%d", &n);
-    printf("Enter the exponent (power): ");
+    printf("Enter the exponent : ");
     scanf("%d", &power);
 
-    // Calculate power using a loop
+    
     for (int i = 0; i < power; i++) {
         result *= n;
     }
 
-    // Display result
-    printf("%d^%d = %lld\n", n, power, result);
+   
+    printf("%d^%d = %ld\n", n, power, result);
 
     return 0;
 }
